@@ -1,0 +1,108 @@
+{
+  "delayRisk": [
+    {
+      "feature": "customer_detention_history",
+      "importance": 0.1896
+    },
+    {
+      "feature": "route_complexity",
+      "importance": 0.1634
+    },
+    {
+      "feature": "distance_km",
+      "importance": 0.1632
+    },
+    {
+      "feature": "REMAINING_HOURS_CAN_7",
+      "importance": 0.1559
+    },
+    {
+      "feature": "remaining_hours",
+      "importance": 0.1217
+    },
+    {
+      "feature": "hos_buffer_hours",
+      "importance": 0.1049
+    },
+    {
+      "feature": "REMAINING_HOURS_CAN_14",
+      "importance": 0.1013
+    },
+    {
+      "feature": "est_drive_hours",
+      "importance": 0.0
+    }
+  ],
+  "detentionRisk": [
+    {
+      "feature": "route_complexity",
+      "importance": 0.2828
+    },
+    {
+      "feature": "distance_km",
+      "importance": 0.2279
+    },
+    {
+      "feature": "schedule_slack_hours",
+      "importance": 0.1445
+    },
+    {
+      "feature": "REMAINING_HOURS_CAN_7",
+      "importance": 0.1
+    },
+    {
+      "feature": "remaining_hours",
+      "importance": 0.0969
+    },
+    {
+      "feature": "REMAINING_HOURS_CAN_14",
+      "importance": 0.0871
+    },
+    {
+      "feature": "hos_buffer_hours",
+      "importance": 0.0608
+    },
+    {
+      "feature": "est_drive_hours",
+      "importance": 0.0
+    }
+  ],
+  "emptyMileRisk": [
+    {
+      "feature": "route_complexity",
+      "importance": 0.255
+    },
+    {
+      "feature": "distance_km",
+      "importance": 0.1909
+    },
+    {
+      "feature": "schedule_slack_hours",
+      "importance": 0.1668
+    },
+    {
+      "feature": "customer_detention_history",
+      "importance": 0.1643
+    },
+    {
+      "feature": "REMAINING_HOURS_CAN_7",
+      "importance": 0.0615
+    },
+    {
+      "feature": "remaining_hours",
+      "importance": 0.0595
+    },
+    {
+      "feature": "hos_buffer_hours",
+      "importance": 0.0556
+    },
+    {
+      "feature": "REMAINING_HOURS_CAN_14",
+      "importance": 0.0463
+    },
+    {
+      "feature": "est_drive_hours",
+      "importance": 0.0
+    }
+  ]
+}

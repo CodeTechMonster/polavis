@@ -1,0 +1,130 @@
+{
+  "generatedAt": "2026-09-11T01:01:39+00:00",
+  "totalLegs": 10479,
+  "modelConfig": {
+    "algorithm": "XGBClassifier",
+    "nEstimators": 150,
+    "maxDepth": 4,
+    "learningRate": 0.08,
+    "testSize": 0.2,
+    "stratified": true,
+    "randomState": 42
+  },
+  "ensembleWeights": {
+    "hosRisk": 0.3,
+    "delayRisk": 0.3,
+    "detentionRisk": 0.2,
+    "emptyMileRisk": 0.2
+  },
+  "models": {
+    "delayRisk": {
+      "trained": true,
+      "operatingThreshold": 0.2,
+      "thresholdSelection": "F1-maximising on the training split; the test split is never used to choose it",
+      "rocAuc": 0.9386,
+      "accuracy": 0.9819,
+      "precision": 0.6545,
+      "recall": 0.6545,
+      "f1": 0.6545,
+      "atDefaultThreshold": {
+        "threshold": 0.5,
+        "precision": 0.8276,
+        "recall": 0.4364,
+        "f1": 0.5714
+      },
+      "trainRows": 8383,
+      "testRows": 2096,
+      "positiveRateTest": 0.0262,
+      "confusion": {
+        "tn": 2022,
+        "fp": 19,
+        "fn": 19,
+        "tp": 36
+      },
+      "features": [
+        "distance_km",
+        "remaining_hours",
+        "REMAINING_HOURS_CAN_7",
+        "REMAINING_HOURS_CAN_14",
+        "est_drive_hours",
+        "hos_buffer_hours",
+        "route_complexity",
+        "customer_detention_history"
+      ],
+      "label": "schedule_slack_hours < 0  (DELIVER_BY - LS_SCHEDULED_ARRIVAL)"
+    },
+    "detentionRisk": {
+      "trained": true,
+      "operatingThreshold": 0.4,
+      "thresholdSelection": "F1-maximising on the training split; the test split is never used to choose it",
+      "rocAuc": 0.8851,
+      "accuracy": 0.7939,
+      "precision": 0.7767,
+      "recall": 0.8777,
+      "f1": 0.8241,
+      "atDefaultThreshold": {
+        "threshold": 0.5,
+        "precision": 0.8411,
+        "recall": 0.8031,
+        "f1": 0.8217
+      },
+      "trainRows": 8383,
+      "testRows": 2096,
+      "positiveRateTest": 0.5501,
+      "confusion": {
+        "tn": 652,
+        "fp": 291,
+        "fn": 141,
+        "tp": 1012
+      },
+      "features": [
+        "distance_km",
+        "schedule_slack_hours",
+        "remaining_hours",
+        "REMAINING_HOURS_CAN_7",
+        "REMAINING_HOURS_CAN_14",
+        "est_drive_hours",
+        "hos_buffer_hours",
+        "route_complexity"
+      ],
+      "label": "detention_hours > 0  (dock dwell beyond the 2h free window)"
+    },
+    "emptyMileRisk": {
+      "trained": true,
+      "operatingThreshold": 0.41,
+      "thresholdSelection": "F1-maximising on the training split; the test split is never used to choose it",
+      "rocAuc": 0.8819,
+      "accuracy": 0.8049,
+      "precision": 0.7034,
+      "recall": 0.7799,
+      "f1": 0.7397,
+      "atDefaultThreshold": {
+        "threshold": 0.5,
+        "precision": 0.793,
+        "recall": 0.5812,
+        "f1": 0.6708
+      },
+      "trainRows": 8383,
+      "testRows": 2096,
+      "positiveRateTest": 0.3554,
+      "confusion": {
+        "tn": 1106,
+        "fp": 245,
+        "fn": 164,
+        "tp": 581
+      },
+      "features": [
+        "distance_km",
+        "schedule_slack_hours",
+        "remaining_hours",
+        "REMAINING_HOURS_CAN_7",
+        "REMAINING_HOURS_CAN_14",
+        "est_drive_hours",
+        "hos_buffer_hours",
+        "route_complexity",
+        "customer_detention_history"
+      ],
+      "label": "LS_MT_LOADED == 'E'"
+    }
+  }
+}

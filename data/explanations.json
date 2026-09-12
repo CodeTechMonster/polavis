@@ -1,0 +1,2625 @@
+{
+  "619905": {
+    "trip_number": 619905,
+    "model": "detentionRisk",
+    "top_factors": [
+      {
+        "feature": "remaining_hours",
+        "friendly_name": "remaining drive hours",
+        "value": 0.0,
+        "shap_contribution": 1.46,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 6.0,
+        "shap_contribution": 0.484,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -43.78,
+        "shap_contribution": 0.238,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "REMAINING_HOURS_CAN_7",
+        "friendly_name": "7-day HOS cycle hours remaining",
+        "value": -43.75,
+        "shap_contribution": -0.17,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "REMAINING_HOURS_CAN_14",
+        "friendly_name": "14-day HOS cycle hours remaining",
+        "value": -145.46,
+        "shap_contribution": 0.103,
+        "direction": "increases risk"
+      }
+    ],
+    "explanation": "remaining drive hours is the largest contributor to the detentionRisk score for trip 619905 (value: 0.0).",
+    "guardrail_applied": false
+  },
+  "620034": {
+    "trip_number": 620034,
+    "model": "detentionRisk",
+    "top_factors": [
+      {
+        "feature": "remaining_hours",
+        "friendly_name": "remaining drive hours",
+        "value": 0.0,
+        "shap_contribution": 0.79,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 7.0,
+        "shap_contribution": 0.469,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -43.78,
+        "shap_contribution": 0.276,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "REMAINING_HOURS_CAN_7",
+        "friendly_name": "7-day HOS cycle hours remaining",
+        "value": -43.75,
+        "shap_contribution": -0.2,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "schedule_slack_hours",
+        "friendly_name": "schedule slack",
+        "value": 0.0,
+        "shap_contribution": 0.161,
+        "direction": "increases risk"
+      }
+    ],
+    "explanation": "remaining drive hours is the largest contributor to the detentionRisk score for trip 620034 (value: 0.0).",
+    "guardrail_applied": false
+  },
+  "619649": {
+    "trip_number": 619649,
+    "model": "detentionRisk",
+    "top_factors": [
+      {
+        "feature": "remaining_hours",
+        "friendly_name": "remaining drive hours",
+        "value": 0.0,
+        "shap_contribution": 0.79,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 7.0,
+        "shap_contribution": 0.469,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -43.78,
+        "shap_contribution": 0.276,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "REMAINING_HOURS_CAN_7",
+        "friendly_name": "7-day HOS cycle hours remaining",
+        "value": -43.75,
+        "shap_contribution": -0.2,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "schedule_slack_hours",
+        "friendly_name": "schedule slack",
+        "value": 0.0,
+        "shap_contribution": 0.161,
+        "direction": "increases risk"
+      }
+    ],
+    "explanation": "remaining drive hours is the largest contributor to the detentionRisk score for trip 619649 (value: 0.0).",
+    "guardrail_applied": false
+  },
+  "619653": {
+    "trip_number": 619653,
+    "model": "detentionRisk",
+    "top_factors": [
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -43.75,
+        "shap_contribution": 1.344,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "remaining_hours",
+        "friendly_name": "remaining drive hours",
+        "value": 0.0,
+        "shap_contribution": 1.32,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 0.0,
+        "shap_contribution": -0.542,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 3.0,
+        "shap_contribution": -0.303,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "REMAINING_HOURS_CAN_14",
+        "friendly_name": "14-day HOS cycle hours remaining",
+        "value": -145.46,
+        "shap_contribution": 0.268,
+        "direction": "increases risk"
+      }
+    ],
+    "explanation": "HOS buffer is the largest contributor to the detentionRisk score for trip 619653 (value: -43.8).",
+    "guardrail_applied": false
+  },
+  "621190": {
+    "trip_number": 621190,
+    "model": "detentionRisk",
+    "top_factors": [
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 860.7,
+        "shap_contribution": 2.201,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": 0.53,
+        "shap_contribution": 0.574,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "schedule_slack_hours",
+        "friendly_name": "schedule slack",
+        "value": 92.61,
+        "shap_contribution": 0.19,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "REMAINING_HOURS_CAN_7",
+        "friendly_name": "7-day HOS cycle hours remaining",
+        "value": 11.29,
+        "shap_contribution": -0.168,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 4.0,
+        "shap_contribution": -0.095,
+        "direction": "decreases risk"
+      }
+    ],
+    "explanation": "trip distance is the largest contributor to the detentionRisk score for trip 621190 (value: 860.7).",
+    "guardrail_applied": false
+  },
+  "618759": {
+    "trip_number": 618759,
+    "model": "emptyMileRisk",
+    "top_factors": [
+      {
+        "feature": "schedule_slack_hours",
+        "friendly_name": "schedule slack",
+        "value": 3.0,
+        "shap_contribution": 1.812,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 2.2,
+        "shap_contribution": 1.161,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "customer_detention_history",
+        "friendly_name": "this customer's detention history",
+        "value": 4.91,
+        "shap_contribution": 0.423,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -42.65,
+        "shap_contribution": -0.364,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 4.0,
+        "shap_contribution": 0.257,
+        "direction": "increases risk"
+      }
+    ],
+    "explanation": "schedule slack is the largest contributor to the emptyMileRisk score for trip 618759 (value: 3.0).",
+    "guardrail_applied": false
+  },
+  "620551": {
+    "trip_number": 620551,
+    "model": "detentionRisk",
+    "top_factors": [
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 2282.5,
+        "shap_contribution": 4.829,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -11.53,
+        "shap_contribution": 0.702,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 5.0,
+        "shap_contribution": -0.207,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "remaining_hours",
+        "friendly_name": "remaining drive hours",
+        "value": 48.49,
+        "shap_contribution": -0.189,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "schedule_slack_hours",
+        "friendly_name": "schedule slack",
+        "value": 68.0,
+        "shap_contribution": -0.188,
+        "direction": "decreases risk"
+      }
+    ],
+    "explanation": "trip distance is the largest contributor to the detentionRisk score for trip 620551 (value: 2282.5).",
+    "guardrail_applied": false
+  },
+  "621192": {
+    "trip_number": 621192,
+    "model": "detentionRisk",
+    "top_factors": [
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 2560.1,
+        "shap_contribution": 4.801,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -4.44,
+        "shap_contribution": 0.536,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 5.0,
+        "shap_contribution": -0.199,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "remaining_hours",
+        "friendly_name": "remaining drive hours",
+        "value": 46.03,
+        "shap_contribution": -0.19,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "schedule_slack_hours",
+        "friendly_name": "schedule slack",
+        "value": 73.0,
+        "shap_contribution": -0.112,
+        "direction": "decreases risk"
+      }
+    ],
+    "explanation": "trip distance is the largest contributor to the detentionRisk score for trip 621192 (value: 2560.1).",
+    "guardrail_applied": false
+  },
+  "620042": {
+    "trip_number": 620042,
+    "model": "detentionRisk",
+    "top_factors": [
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -43.75,
+        "shap_contribution": 1.344,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "remaining_hours",
+        "friendly_name": "remaining drive hours",
+        "value": 0.0,
+        "shap_contribution": 1.32,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 0.0,
+        "shap_contribution": -0.542,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 3.0,
+        "shap_contribution": -0.303,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "REMAINING_HOURS_CAN_14",
+        "friendly_name": "14-day HOS cycle hours remaining",
+        "value": -145.46,
+        "shap_contribution": 0.268,
+        "direction": "increases risk"
+      }
+    ],
+    "explanation": "HOS buffer is the largest contributor to the detentionRisk score for trip 620042 (value: -43.8).",
+    "guardrail_applied": false
+  },
+  "617992": {
+    "trip_number": 617992,
+    "model": "detentionRisk",
+    "top_factors": [
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 2639.1,
+        "shap_contribution": 4.801,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -5.43,
+        "shap_contribution": 0.536,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 5.0,
+        "shap_contribution": -0.199,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "remaining_hours",
+        "friendly_name": "remaining drive hours",
+        "value": 46.03,
+        "shap_contribution": -0.19,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "schedule_slack_hours",
+        "friendly_name": "schedule slack",
+        "value": 71.0,
+        "shap_contribution": -0.113,
+        "direction": "decreases risk"
+      }
+    ],
+    "explanation": "trip distance is the largest contributor to the detentionRisk score for trip 617992 (value: 2639.1).",
+    "guardrail_applied": false
+  },
+  "620813": {
+    "trip_number": 620813,
+    "model": "emptyMileRisk",
+    "top_factors": [
+      {
+        "feature": "schedule_slack_hours",
+        "friendly_name": "schedule slack",
+        "value": 3.0,
+        "shap_contribution": 1.745,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 2.2,
+        "shap_contribution": 1.176,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "customer_detention_history",
+        "friendly_name": "this customer's detention history",
+        "value": 4.91,
+        "shap_contribution": 0.56,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -42.65,
+        "shap_contribution": -0.346,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "REMAINING_HOURS_CAN_7",
+        "friendly_name": "7-day HOS cycle hours remaining",
+        "value": -42.62,
+        "shap_contribution": 0.183,
+        "direction": "increases risk"
+      }
+    ],
+    "explanation": "schedule slack is the largest contributor to the emptyMileRisk score for trip 620813 (value: 3.0).",
+    "guardrail_applied": false
+  },
+  "620046": {
+    "trip_number": 620046,
+    "model": "detentionRisk",
+    "top_factors": [
+      {
+        "feature": "remaining_hours",
+        "friendly_name": "remaining drive hours",
+        "value": 0.0,
+        "shap_contribution": 1.46,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 6.0,
+        "shap_contribution": 0.484,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -43.78,
+        "shap_contribution": 0.238,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "REMAINING_HOURS_CAN_7",
+        "friendly_name": "7-day HOS cycle hours remaining",
+        "value": -43.75,
+        "shap_contribution": -0.17,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "REMAINING_HOURS_CAN_14",
+        "friendly_name": "14-day HOS cycle hours remaining",
+        "value": -145.46,
+        "shap_contribution": 0.103,
+        "direction": "increases risk"
+      }
+    ],
+    "explanation": "remaining drive hours is the largest contributor to the detentionRisk score for trip 620046 (value: 0.0).",
+    "guardrail_applied": false
+  },
+  "618895": {
+    "trip_number": 618895,
+    "model": "emptyMileRisk",
+    "top_factors": [
+      {
+        "feature": "schedule_slack_hours",
+        "friendly_name": "schedule slack",
+        "value": 3.0,
+        "shap_contribution": 1.691,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 2.2,
+        "shap_contribution": 1.15,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "customer_detention_history",
+        "friendly_name": "this customer's detention history",
+        "value": 4.25,
+        "shap_contribution": 0.46,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -42.65,
+        "shap_contribution": -0.374,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 6.0,
+        "shap_contribution": 0.244,
+        "direction": "increases risk"
+      }
+    ],
+    "explanation": "schedule slack is the largest contributor to the emptyMileRisk score for trip 618895 (value: 3.0).",
+    "guardrail_applied": false
+  },
+  "620048": {
+    "trip_number": 620048,
+    "model": "detentionRisk",
+    "top_factors": [
+      {
+        "feature": "remaining_hours",
+        "friendly_name": "remaining drive hours",
+        "value": 0.0,
+        "shap_contribution": 0.79,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 7.0,
+        "shap_contribution": 0.469,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -43.78,
+        "shap_contribution": 0.276,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "REMAINING_HOURS_CAN_7",
+        "friendly_name": "7-day HOS cycle hours remaining",
+        "value": -43.75,
+        "shap_contribution": -0.2,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "schedule_slack_hours",
+        "friendly_name": "schedule slack",
+        "value": 0.0,
+        "shap_contribution": 0.161,
+        "direction": "increases risk"
+      }
+    ],
+    "explanation": "remaining drive hours is the largest contributor to the detentionRisk score for trip 620048 (value: 0.0).",
+    "guardrail_applied": false
+  },
+  "621200": {
+    "trip_number": 621200,
+    "model": "emptyMileRisk",
+    "top_factors": [
+      {
+        "feature": "schedule_slack_hours",
+        "friendly_name": "schedule slack",
+        "value": 3.0,
+        "shap_contribution": 1.764,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 2.2,
+        "shap_contribution": 1.144,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -42.65,
+        "shap_contribution": -0.393,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "customer_detention_history",
+        "friendly_name": "this customer's detention history",
+        "value": 4.2,
+        "shap_contribution": 0.374,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 5.0,
+        "shap_contribution": 0.332,
+        "direction": "increases risk"
+      }
+    ],
+    "explanation": "schedule slack is the largest contributor to the emptyMileRisk score for trip 621200 (value: 3.0).",
+    "guardrail_applied": false
+  },
+  "620050": {
+    "trip_number": 620050,
+    "model": "detentionRisk",
+    "top_factors": [
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -43.75,
+        "shap_contribution": 1.344,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "remaining_hours",
+        "friendly_name": "remaining drive hours",
+        "value": 0.0,
+        "shap_contribution": 1.32,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 0.0,
+        "shap_contribution": -0.542,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 3.0,
+        "shap_contribution": -0.303,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "REMAINING_HOURS_CAN_14",
+        "friendly_name": "14-day HOS cycle hours remaining",
+        "value": -145.46,
+        "shap_contribution": 0.268,
+        "direction": "increases risk"
+      }
+    ],
+    "explanation": "HOS buffer is the largest contributor to the detentionRisk score for trip 620050 (value: -43.8).",
+    "guardrail_applied": false
+  },
+  "617357": {
+    "trip_number": 617357,
+    "model": "detentionRisk",
+    "top_factors": [
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 1822.7,
+        "shap_contribution": 4.554,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": 1.92,
+        "shap_contribution": 0.453,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "REMAINING_HOURS_CAN_7",
+        "friendly_name": "7-day HOS cycle hours remaining",
+        "value": 24.7,
+        "shap_contribution": -0.086,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "schedule_slack_hours",
+        "friendly_name": "schedule slack",
+        "value": 79.0,
+        "shap_contribution": -0.083,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 6.0,
+        "shap_contribution": -0.083,
+        "direction": "decreases risk"
+      }
+    ],
+    "explanation": "trip distance is the largest contributor to the detentionRisk score for trip 617357 (value: 1822.7).",
+    "guardrail_applied": false
+  },
+  "617485": {
+    "trip_number": 617485,
+    "model": "detentionRisk",
+    "top_factors": [
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 2680.7,
+        "shap_contribution": 4.384,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -13.07,
+        "shap_contribution": 0.658,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 5.0,
+        "shap_contribution": -0.206,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "remaining_hours",
+        "friendly_name": "remaining drive hours",
+        "value": 46.34,
+        "shap_contribution": -0.19,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "schedule_slack_hours",
+        "friendly_name": "schedule slack",
+        "value": 70.0,
+        "shap_contribution": -0.182,
+        "direction": "decreases risk"
+      }
+    ],
+    "explanation": "trip distance is the largest contributor to the detentionRisk score for trip 617485 (value: 2680.7).",
+    "guardrail_applied": false
+  },
+  "621710": {
+    "trip_number": 621710,
+    "model": "detentionRisk",
+    "top_factors": [
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 2648.5,
+        "shap_contribution": 4.826,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -12.67,
+        "shap_contribution": 0.658,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 5.0,
+        "shap_contribution": -0.206,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "remaining_hours",
+        "friendly_name": "remaining drive hours",
+        "value": 46.34,
+        "shap_contribution": -0.19,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "schedule_slack_hours",
+        "friendly_name": "schedule slack",
+        "value": 70.0,
+        "shap_contribution": -0.182,
+        "direction": "decreases risk"
+      }
+    ],
+    "explanation": "trip distance is the largest contributor to the detentionRisk score for trip 621710 (value: 2648.5).",
+    "guardrail_applied": false
+  },
+  "618253": {
+    "trip_number": 618253,
+    "model": "detentionRisk",
+    "top_factors": [
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 2680.7,
+        "shap_contribution": 4.263,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -15.15,
+        "shap_contribution": 0.681,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 5.0,
+        "shap_contribution": -0.217,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "schedule_slack_hours",
+        "friendly_name": "schedule slack",
+        "value": 83.0,
+        "shap_contribution": -0.198,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "REMAINING_HOURS_CAN_7",
+        "friendly_name": "7-day HOS cycle hours remaining",
+        "value": 18.36,
+        "shap_contribution": -0.151,
+        "direction": "decreases risk"
+      }
+    ],
+    "explanation": "trip distance is the largest contributor to the detentionRisk score for trip 618253 (value: 2680.7).",
+    "guardrail_applied": false
+  },
+  "617875": {
+    "trip_number": 617875,
+    "model": "detentionRisk",
+    "top_factors": [
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 2479.6,
+        "shap_contribution": 4.624,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -5.17,
+        "shap_contribution": 0.483,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 4.0,
+        "shap_contribution": -0.14,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "remaining_hours",
+        "friendly_name": "remaining drive hours",
+        "value": 70.0,
+        "shap_contribution": -0.075,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "REMAINING_HOURS_CAN_14",
+        "friendly_name": "14-day HOS cycle hours remaining",
+        "value": 36.19,
+        "shap_contribution": -0.067,
+        "direction": "decreases risk"
+      }
+    ],
+    "explanation": "trip distance is the largest contributor to the detentionRisk score for trip 617875 (value: 2479.6).",
+    "guardrail_applied": false
+  },
+  "622101": {
+    "trip_number": 622101,
+    "model": "detentionRisk",
+    "top_factors": [
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 2697.2,
+        "shap_contribution": 4.574,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -15.64,
+        "shap_contribution": 0.709,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "remaining_hours",
+        "friendly_name": "remaining drive hours",
+        "value": 19.42,
+        "shap_contribution": -0.515,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 5.0,
+        "shap_contribution": -0.192,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "schedule_slack_hours",
+        "friendly_name": "schedule slack",
+        "value": 72.0,
+        "shap_contribution": -0.163,
+        "direction": "decreases risk"
+      }
+    ],
+    "explanation": "trip distance is the largest contributor to the detentionRisk score for trip 622101 (value: 2697.2).",
+    "guardrail_applied": false
+  },
+  "621593": {
+    "trip_number": 621593,
+    "model": "emptyMileRisk",
+    "top_factors": [
+      {
+        "feature": "schedule_slack_hours",
+        "friendly_name": "schedule slack",
+        "value": 3.0,
+        "shap_contribution": 1.745,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 2.2,
+        "shap_contribution": 1.176,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "customer_detention_history",
+        "friendly_name": "this customer's detention history",
+        "value": 4.91,
+        "shap_contribution": 0.56,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -42.65,
+        "shap_contribution": -0.346,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "REMAINING_HOURS_CAN_7",
+        "friendly_name": "7-day HOS cycle hours remaining",
+        "value": -42.62,
+        "shap_contribution": 0.183,
+        "direction": "increases risk"
+      }
+    ],
+    "explanation": "schedule slack is the largest contributor to the emptyMileRisk score for trip 621593 (value: 3.0).",
+    "guardrail_applied": false
+  },
+  "618394": {
+    "trip_number": 618394,
+    "model": "detentionRisk",
+    "top_factors": [
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 2496.2,
+        "shap_contribution": 4.838,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -10.76,
+        "shap_contribution": 0.643,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 4.0,
+        "shap_contribution": -0.099,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "remaining_hours",
+        "friendly_name": "remaining drive hours",
+        "value": 46.34,
+        "shap_contribution": -0.099,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "REMAINING_HOURS_CAN_14",
+        "friendly_name": "14-day HOS cycle hours remaining",
+        "value": 13.93,
+        "shap_contribution": 0.073,
+        "direction": "increases risk"
+      }
+    ],
+    "explanation": "trip distance is the largest contributor to the detentionRisk score for trip 618394 (value: 2496.2).",
+    "guardrail_applied": false
+  },
+  "619773": {
+    "trip_number": 619773,
+    "model": "detentionRisk",
+    "top_factors": [
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 2484.9,
+        "shap_contribution": 5.02,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -14.06,
+        "shap_contribution": 0.708,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 5.0,
+        "shap_contribution": -0.198,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "remaining_hours",
+        "friendly_name": "remaining drive hours",
+        "value": 48.49,
+        "shap_contribution": -0.192,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "REMAINING_HOURS_CAN_7",
+        "friendly_name": "7-day HOS cycle hours remaining",
+        "value": 17.0,
+        "shap_contribution": -0.122,
+        "direction": "decreases risk"
+      }
+    ],
+    "explanation": "trip distance is the largest contributor to the detentionRisk score for trip 619773 (value: 2484.9).",
+    "guardrail_applied": false
+  },
+  "618268": {
+    "trip_number": 618268,
+    "model": "detentionRisk",
+    "top_factors": [
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 2680.7,
+        "shap_contribution": 4.494,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -15.44,
+        "shap_contribution": 0.744,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "remaining_hours",
+        "friendly_name": "remaining drive hours",
+        "value": 19.42,
+        "shap_contribution": -0.473,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 4.0,
+        "shap_contribution": -0.168,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "REMAINING_HOURS_CAN_7",
+        "friendly_name": "7-day HOS cycle hours remaining",
+        "value": 18.07,
+        "shap_contribution": -0.14,
+        "direction": "decreases risk"
+      }
+    ],
+    "explanation": "trip distance is the largest contributor to the detentionRisk score for trip 618268 (value: 2680.7).",
+    "guardrail_applied": false
+  },
+  "619901": {
+    "trip_number": 619901,
+    "model": "detentionRisk",
+    "top_factors": [
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 2648.5,
+        "shap_contribution": 4.772,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -14.75,
+        "shap_contribution": 0.686,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 5.0,
+        "shap_contribution": -0.217,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "REMAINING_HOURS_CAN_7",
+        "friendly_name": "7-day HOS cycle hours remaining",
+        "value": 18.36,
+        "shap_contribution": -0.161,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "schedule_slack_hours",
+        "friendly_name": "schedule slack",
+        "value": 92.0,
+        "shap_contribution": -0.064,
+        "direction": "decreases risk"
+      }
+    ],
+    "explanation": "trip distance is the largest contributor to the detentionRisk score for trip 619901 (value: 2648.5).",
+    "guardrail_applied": false
+  },
+  "617248": {
+    "trip_number": 617248,
+    "model": "detentionRisk",
+    "top_factors": [
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -43.75,
+        "shap_contribution": 1.344,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "remaining_hours",
+        "friendly_name": "remaining drive hours",
+        "value": 0.0,
+        "shap_contribution": 1.32,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 0.0,
+        "shap_contribution": -0.542,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 3.0,
+        "shap_contribution": -0.303,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "REMAINING_HOURS_CAN_14",
+        "friendly_name": "14-day HOS cycle hours remaining",
+        "value": -145.46,
+        "shap_contribution": 0.268,
+        "direction": "increases risk"
+      }
+    ],
+    "explanation": "HOS buffer is the largest contributor to the detentionRisk score for trip 617248 (value: -43.8).",
+    "guardrail_applied": false
+  },
+  "620199": {
+    "trip_number": 620199,
+    "model": "emptyMileRisk",
+    "top_factors": [
+      {
+        "feature": "schedule_slack_hours",
+        "friendly_name": "schedule slack",
+        "value": 3.0,
+        "shap_contribution": 1.745,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 2.2,
+        "shap_contribution": 1.176,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "customer_detention_history",
+        "friendly_name": "this customer's detention history",
+        "value": 4.91,
+        "shap_contribution": 0.56,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -42.65,
+        "shap_contribution": -0.346,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "REMAINING_HOURS_CAN_7",
+        "friendly_name": "7-day HOS cycle hours remaining",
+        "value": -42.62,
+        "shap_contribution": 0.183,
+        "direction": "increases risk"
+      }
+    ],
+    "explanation": "schedule slack is the largest contributor to the emptyMileRisk score for trip 620199 (value: 3.0).",
+    "guardrail_applied": false
+  },
+  "621991": {
+    "trip_number": 621991,
+    "model": "emptyMileRisk",
+    "top_factors": [
+      {
+        "feature": "schedule_slack_hours",
+        "friendly_name": "schedule slack",
+        "value": 3.0,
+        "shap_contribution": 1.53,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 2.2,
+        "shap_contribution": 1.221,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "customer_detention_history",
+        "friendly_name": "this customer's detention history",
+        "value": 7.39,
+        "shap_contribution": -0.708,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 4.0,
+        "shap_contribution": 0.399,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -42.65,
+        "shap_contribution": -0.365,
+        "direction": "decreases risk"
+      }
+    ],
+    "explanation": "schedule slack is the largest contributor to the emptyMileRisk score for trip 621991 (value: 3.0).",
+    "guardrail_applied": false
+  },
+  "620587": {
+    "trip_number": 620587,
+    "model": "detentionRisk",
+    "top_factors": [
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 2648.5,
+        "shap_contribution": 4.614,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -8.91,
+        "shap_contribution": 0.544,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "REMAINING_HOURS_CAN_14",
+        "friendly_name": "14-day HOS cycle hours remaining",
+        "value": 9.55,
+        "shap_contribution": 0.158,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "remaining_hours",
+        "friendly_name": "remaining drive hours",
+        "value": 60.4,
+        "shap_contribution": 0.088,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "schedule_slack_hours",
+        "friendly_name": "schedule slack",
+        "value": 67.0,
+        "shap_contribution": -0.062,
+        "direction": "decreases risk"
+      }
+    ],
+    "explanation": "trip distance is the largest contributor to the detentionRisk score for trip 620587 (value: 2648.5).",
+    "guardrail_applied": false
+  },
+  "620594": {
+    "trip_number": 620594,
+    "model": "detentionRisk",
+    "top_factors": [
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 2697.2,
+        "shap_contribution": 4.581,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -15.64,
+        "shap_contribution": 0.733,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "remaining_hours",
+        "friendly_name": "remaining drive hours",
+        "value": 19.42,
+        "shap_contribution": -0.515,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 5.0,
+        "shap_contribution": -0.193,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "schedule_slack_hours",
+        "friendly_name": "schedule slack",
+        "value": 61.0,
+        "shap_contribution": -0.135,
+        "direction": "decreases risk"
+      }
+    ],
+    "explanation": "trip distance is the largest contributor to the detentionRisk score for trip 620594 (value: 2697.2).",
+    "guardrail_applied": false
+  },
+  "617014": {
+    "trip_number": 617014,
+    "model": "emptyMileRisk",
+    "top_factors": [
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 2.4,
+        "shap_contribution": 1.635,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "schedule_slack_hours",
+        "friendly_name": "schedule slack",
+        "value": 14.0,
+        "shap_contribution": 0.64,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": 0.24,
+        "shap_contribution": -0.277,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 6.0,
+        "shap_contribution": 0.23,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "REMAINING_HOURS_CAN_7",
+        "friendly_name": "7-day HOS cycle hours remaining",
+        "value": 0.27,
+        "shap_contribution": 0.171,
+        "direction": "increases risk"
+      }
+    ],
+    "explanation": "trip distance is the largest contributor to the emptyMileRisk score for trip 617014 (value: 2.4).",
+    "guardrail_applied": false
+  },
+  "621499": {
+    "trip_number": 621499,
+    "model": "detentionRisk",
+    "top_factors": [
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 322.7,
+        "shap_contribution": 0.972,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -3.76,
+        "shap_contribution": 0.454,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "schedule_slack_hours",
+        "friendly_name": "schedule slack",
+        "value": 21.0,
+        "shap_contribution": 0.356,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "REMAINING_HOURS_CAN_14",
+        "friendly_name": "14-day HOS cycle hours remaining",
+        "value": -13.78,
+        "shap_contribution": 0.199,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "REMAINING_HOURS_CAN_7",
+        "friendly_name": "7-day HOS cycle hours remaining",
+        "value": 0.27,
+        "shap_contribution": -0.138,
+        "direction": "decreases risk"
+      }
+    ],
+    "explanation": "trip distance is the largest contributor to the detentionRisk score for trip 621499 (value: 322.7).",
+    "guardrail_applied": false
+  },
+  "621884": {
+    "trip_number": 621884,
+    "model": "emptyMileRisk",
+    "top_factors": [
+      {
+        "feature": "schedule_slack_hours",
+        "friendly_name": "schedule slack",
+        "value": 3.0,
+        "shap_contribution": 1.764,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 2.2,
+        "shap_contribution": 1.144,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -42.65,
+        "shap_contribution": -0.393,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "customer_detention_history",
+        "friendly_name": "this customer's detention history",
+        "value": 4.25,
+        "shap_contribution": 0.374,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 5.0,
+        "shap_contribution": 0.332,
+        "direction": "increases risk"
+      }
+    ],
+    "explanation": "schedule slack is the largest contributor to the emptyMileRisk score for trip 621884 (value: 3.0).",
+    "guardrail_applied": false
+  },
+  "621757": {
+    "trip_number": 621757,
+    "model": "emptyMileRisk",
+    "top_factors": [
+      {
+        "feature": "schedule_slack_hours",
+        "friendly_name": "schedule slack",
+        "value": 3.0,
+        "shap_contribution": 1.794,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 2.2,
+        "shap_contribution": 1.14,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "customer_detention_history",
+        "friendly_name": "this customer's detention history",
+        "value": 3.68,
+        "shap_contribution": 0.422,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -42.65,
+        "shap_contribution": -0.393,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 5.0,
+        "shap_contribution": 0.332,
+        "direction": "increases risk"
+      }
+    ],
+    "explanation": "schedule slack is the largest contributor to the emptyMileRisk score for trip 621757 (value: 3.0).",
+    "guardrail_applied": false
+  },
+  "618940": {
+    "trip_number": 618940,
+    "model": "detentionRisk",
+    "top_factors": [
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 752.0,
+        "shap_contribution": 2.085,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -9.13,
+        "shap_contribution": 0.484,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "REMAINING_HOURS_CAN_7",
+        "friendly_name": "7-day HOS cycle hours remaining",
+        "value": 0.27,
+        "shap_contribution": -0.158,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "schedule_slack_hours",
+        "friendly_name": "schedule slack",
+        "value": 112.89,
+        "shap_contribution": 0.134,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "remaining_hours",
+        "friendly_name": "remaining drive hours",
+        "value": 70.0,
+        "shap_contribution": -0.09,
+        "direction": "decreases risk"
+      }
+    ],
+    "explanation": "trip distance is the largest contributor to the detentionRisk score for trip 618940 (value: 752.0).",
+    "guardrail_applied": false
+  },
+  "617533": {
+    "trip_number": 617533,
+    "model": "detentionRisk",
+    "top_factors": [
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 2692.4,
+        "shap_contribution": 4.705,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -15.59,
+        "shap_contribution": 0.735,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "remaining_hours",
+        "friendly_name": "remaining drive hours",
+        "value": 19.42,
+        "shap_contribution": -0.503,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 5.0,
+        "shap_contribution": -0.178,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "REMAINING_HOURS_CAN_7",
+        "friendly_name": "7-day HOS cycle hours remaining",
+        "value": 18.07,
+        "shap_contribution": -0.133,
+        "direction": "decreases risk"
+      }
+    ],
+    "explanation": "trip distance is the largest contributor to the detentionRisk score for trip 617533 (value: 2692.4).",
+    "guardrail_applied": false
+  },
+  "618814": {
+    "trip_number": 618814,
+    "model": "detentionRisk",
+    "top_factors": [
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 1085.7,
+        "shap_contribution": 1.993,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": 1.01,
+        "shap_contribution": 0.599,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "schedule_slack_hours",
+        "friendly_name": "schedule slack",
+        "value": 66.0,
+        "shap_contribution": -0.323,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 5.0,
+        "shap_contribution": -0.269,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "remaining_hours",
+        "friendly_name": "remaining drive hours",
+        "value": 55.21,
+        "shap_contribution": -0.258,
+        "direction": "decreases risk"
+      }
+    ],
+    "explanation": "trip distance is the largest contributor to the detentionRisk score for trip 618814 (value: 1085.7).",
+    "guardrail_applied": false
+  },
+  "618819": {
+    "trip_number": 618819,
+    "model": "detentionRisk",
+    "top_factors": [
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 10.0,
+        "shap_contribution": 1.472,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 57.3,
+        "shap_contribution": 1.311,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": 69.28,
+        "shap_contribution": 0.158,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "REMAINING_HOURS_CAN_7",
+        "friendly_name": "7-day HOS cycle hours remaining",
+        "value": 70.0,
+        "shap_contribution": 0.142,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "remaining_hours",
+        "friendly_name": "remaining drive hours",
+        "value": 65.54,
+        "shap_contribution": 0.09,
+        "direction": "increases risk"
+      }
+    ],
+    "explanation": "route complexity is the largest contributor to the detentionRisk score for trip 618819 (value: 10.0).",
+    "guardrail_applied": false
+  },
+  "619593": {
+    "trip_number": 619593,
+    "model": "delayRisk",
+    "top_factors": [
+      {
+        "feature": "remaining_hours",
+        "friendly_name": "remaining drive hours",
+        "value": 0.0,
+        "shap_contribution": 1.304,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 2.6,
+        "shap_contribution": 0.953,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "customer_detention_history",
+        "friendly_name": "this customer's detention history",
+        "value": 10.06,
+        "shap_contribution": 0.723,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 4.0,
+        "shap_contribution": 0.559,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -43.78,
+        "shap_contribution": 0.269,
+        "direction": "increases risk"
+      }
+    ],
+    "explanation": "remaining drive hours is the largest contributor to the delayRisk score for trip 619593 (value: 0.0).",
+    "guardrail_applied": false
+  },
+  "616907": {
+    "trip_number": 616907,
+    "model": "detentionRisk",
+    "top_factors": [
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 2692.4,
+        "shap_contribution": 4.264,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -15.3,
+        "shap_contribution": 0.68,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 5.0,
+        "shap_contribution": -0.217,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "schedule_slack_hours",
+        "friendly_name": "schedule slack",
+        "value": 62.0,
+        "shap_contribution": -0.197,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "REMAINING_HOURS_CAN_7",
+        "friendly_name": "7-day HOS cycle hours remaining",
+        "value": 18.36,
+        "shap_contribution": -0.151,
+        "direction": "decreases risk"
+      }
+    ],
+    "explanation": "trip distance is the largest contributor to the detentionRisk score for trip 616907 (value: 2692.4).",
+    "guardrail_applied": false
+  },
+  "619730": {
+    "trip_number": 619730,
+    "model": "detentionRisk",
+    "top_factors": [
+      {
+        "feature": "remaining_hours",
+        "friendly_name": "remaining drive hours",
+        "value": 0.0,
+        "shap_contribution": 1.391,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "schedule_slack_hours",
+        "friendly_name": "schedule slack",
+        "value": -59.53,
+        "shap_contribution": -0.744,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 6.0,
+        "shap_contribution": 0.463,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -43.78,
+        "shap_contribution": 0.423,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "REMAINING_HOURS_CAN_7",
+        "friendly_name": "7-day HOS cycle hours remaining",
+        "value": -43.75,
+        "shap_contribution": -0.17,
+        "direction": "decreases risk"
+      }
+    ],
+    "explanation": "remaining drive hours is the largest contributor to the detentionRisk score for trip 619730 (value: 0.0).",
+    "guardrail_applied": false
+  },
+  "618580": {
+    "trip_number": 618580,
+    "model": "detentionRisk",
+    "top_factors": [
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 2536.5,
+        "shap_contribution": 4.829,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -14.71,
+        "shap_contribution": 0.7,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 5.0,
+        "shap_contribution": -0.207,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "remaining_hours",
+        "friendly_name": "remaining drive hours",
+        "value": 48.49,
+        "shap_contribution": -0.189,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "schedule_slack_hours",
+        "friendly_name": "schedule slack",
+        "value": 71.0,
+        "shap_contribution": -0.187,
+        "direction": "decreases risk"
+      }
+    ],
+    "explanation": "trip distance is the largest contributor to the detentionRisk score for trip 618580 (value: 2536.5).",
+    "guardrail_applied": false
+  },
+  "619733": {
+    "trip_number": 619733,
+    "model": "detentionRisk",
+    "top_factors": [
+      {
+        "feature": "remaining_hours",
+        "friendly_name": "remaining drive hours",
+        "value": 0.0,
+        "shap_contribution": 0.79,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 7.0,
+        "shap_contribution": 0.469,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -43.78,
+        "shap_contribution": 0.276,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "REMAINING_HOURS_CAN_7",
+        "friendly_name": "7-day HOS cycle hours remaining",
+        "value": -43.75,
+        "shap_contribution": -0.2,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "schedule_slack_hours",
+        "friendly_name": "schedule slack",
+        "value": 0.0,
+        "shap_contribution": 0.161,
+        "direction": "increases risk"
+      }
+    ],
+    "explanation": "remaining drive hours is the largest contributor to the detentionRisk score for trip 619733 (value: 0.0).",
+    "guardrail_applied": false
+  },
+  "617558": {
+    "trip_number": 617558,
+    "model": "emptyMileRisk",
+    "top_factors": [
+      {
+        "feature": "schedule_slack_hours",
+        "friendly_name": "schedule slack",
+        "value": 3.0,
+        "shap_contribution": 1.691,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 2.2,
+        "shap_contribution": 1.15,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "customer_detention_history",
+        "friendly_name": "this customer's detention history",
+        "value": 4.2,
+        "shap_contribution": 0.46,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -42.65,
+        "shap_contribution": -0.374,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 6.0,
+        "shap_contribution": 0.244,
+        "direction": "increases risk"
+      }
+    ],
+    "explanation": "schedule slack is the largest contributor to the emptyMileRisk score for trip 617558 (value: 3.0).",
+    "guardrail_applied": false
+  },
+  "617430": {
+    "trip_number": 617430,
+    "model": "emptyMileRisk",
+    "top_factors": [
+      {
+        "feature": "schedule_slack_hours",
+        "friendly_name": "schedule slack",
+        "value": 3.0,
+        "shap_contribution": 1.777,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 2.2,
+        "shap_contribution": 1.169,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "customer_detention_history",
+        "friendly_name": "this customer's detention history",
+        "value": 4.91,
+        "shap_contribution": 0.607,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -42.65,
+        "shap_contribution": -0.248,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "REMAINING_HOURS_CAN_7",
+        "friendly_name": "7-day HOS cycle hours remaining",
+        "value": -42.62,
+        "shap_contribution": 0.133,
+        "direction": "increases risk"
+      }
+    ],
+    "explanation": "schedule slack is the largest contributor to the emptyMileRisk score for trip 617430 (value: 3.0).",
+    "guardrail_applied": false
+  },
+  "617306": {
+    "trip_number": 617306,
+    "model": "emptyMileRisk",
+    "top_factors": [
+      {
+        "feature": "schedule_slack_hours",
+        "friendly_name": "schedule slack",
+        "value": 3.0,
+        "shap_contribution": 1.731,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 2.2,
+        "shap_contribution": 1.184,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 5.0,
+        "shap_contribution": 0.466,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -42.65,
+        "shap_contribution": -0.365,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "REMAINING_HOURS_CAN_7",
+        "friendly_name": "7-day HOS cycle hours remaining",
+        "value": -42.62,
+        "shap_contribution": 0.195,
+        "direction": "increases risk"
+      }
+    ],
+    "explanation": "schedule slack is the largest contributor to the emptyMileRisk score for trip 617306 (value: 3.0).",
+    "guardrail_applied": false
+  },
+  "620381": {
+    "trip_number": 620381,
+    "model": "detentionRisk",
+    "top_factors": [
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -43.75,
+        "shap_contribution": 1.344,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "remaining_hours",
+        "friendly_name": "remaining drive hours",
+        "value": 0.0,
+        "shap_contribution": 1.32,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 0.0,
+        "shap_contribution": -0.542,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 3.0,
+        "shap_contribution": -0.303,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "REMAINING_HOURS_CAN_14",
+        "friendly_name": "14-day HOS cycle hours remaining",
+        "value": -145.46,
+        "shap_contribution": 0.268,
+        "direction": "increases risk"
+      }
+    ],
+    "explanation": "HOS buffer is the largest contributor to the detentionRisk score for trip 620381 (value: -43.8).",
+    "guardrail_applied": false
+  },
+  "620258": {
+    "trip_number": 620258,
+    "model": "detentionRisk",
+    "top_factors": [
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 10.0,
+        "shap_contribution": 1.573,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "remaining_hours",
+        "friendly_name": "remaining drive hours",
+        "value": 0.0,
+        "shap_contribution": 0.462,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "schedule_slack_hours",
+        "friendly_name": "schedule slack",
+        "value": -131.32,
+        "shap_contribution": 0.352,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -43.78,
+        "shap_contribution": 0.24,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "REMAINING_HOURS_CAN_14",
+        "friendly_name": "14-day HOS cycle hours remaining",
+        "value": -145.46,
+        "shap_contribution": -0.072,
+        "direction": "decreases risk"
+      }
+    ],
+    "explanation": "route complexity is the largest contributor to the detentionRisk score for trip 620258 (value: 10.0).",
+    "guardrail_applied": false
+  },
+  "619748": {
+    "trip_number": 619748,
+    "model": "detentionRisk",
+    "top_factors": [
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -43.75,
+        "shap_contribution": 1.344,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "remaining_hours",
+        "friendly_name": "remaining drive hours",
+        "value": 0.0,
+        "shap_contribution": 1.32,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 0.0,
+        "shap_contribution": -0.542,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 3.0,
+        "shap_contribution": -0.303,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "REMAINING_HOURS_CAN_14",
+        "friendly_name": "14-day HOS cycle hours remaining",
+        "value": -145.46,
+        "shap_contribution": 0.268,
+        "direction": "increases risk"
+      }
+    ],
+    "explanation": "HOS buffer is the largest contributor to the detentionRisk score for trip 619748 (value: -43.8).",
+    "guardrail_applied": false
+  },
+  "620390": {
+    "trip_number": 620390,
+    "model": "detentionRisk",
+    "top_factors": [
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 506.2,
+        "shap_contribution": 2.528,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -6.06,
+        "shap_contribution": 0.645,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "schedule_slack_hours",
+        "friendly_name": "schedule slack",
+        "value": 38.0,
+        "shap_contribution": 0.378,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "REMAINING_HOURS_CAN_14",
+        "friendly_name": "14-day HOS cycle hours remaining",
+        "value": -13.78,
+        "shap_contribution": 0.166,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "REMAINING_HOURS_CAN_7",
+        "friendly_name": "7-day HOS cycle hours remaining",
+        "value": 0.27,
+        "shap_contribution": -0.16,
+        "direction": "decreases risk"
+      }
+    ],
+    "explanation": "trip distance is the largest contributor to the detentionRisk score for trip 620390 (value: 506.2).",
+    "guardrail_applied": false
+  },
+  "616937": {
+    "trip_number": 616937,
+    "model": "emptyMileRisk",
+    "top_factors": [
+      {
+        "feature": "schedule_slack_hours",
+        "friendly_name": "schedule slack",
+        "value": 3.0,
+        "shap_contribution": 1.721,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 2.2,
+        "shap_contribution": 1.146,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "customer_detention_history",
+        "friendly_name": "this customer's detention history",
+        "value": 4.03,
+        "shap_contribution": 0.508,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -42.65,
+        "shap_contribution": -0.374,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 6.0,
+        "shap_contribution": 0.244,
+        "direction": "increases risk"
+      }
+    ],
+    "explanation": "schedule slack is the largest contributor to the emptyMileRisk score for trip 616937 (value: 3.0).",
+    "guardrail_applied": false
+  },
+  "618858": {
+    "trip_number": 618858,
+    "model": "detentionRisk",
+    "top_factors": [
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 2697.2,
+        "shap_contribution": 4.581,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -15.64,
+        "shap_contribution": 0.733,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "remaining_hours",
+        "friendly_name": "remaining drive hours",
+        "value": 19.42,
+        "shap_contribution": -0.515,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 5.0,
+        "shap_contribution": -0.193,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "schedule_slack_hours",
+        "friendly_name": "schedule slack",
+        "value": 60.0,
+        "shap_contribution": -0.135,
+        "direction": "decreases risk"
+      }
+    ],
+    "explanation": "trip distance is the largest contributor to the detentionRisk score for trip 618858 (value: 2697.2).",
+    "guardrail_applied": false
+  },
+  "620907": {
+    "trip_number": 620907,
+    "model": "detentionRisk",
+    "top_factors": [
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 2484.9,
+        "shap_contribution": 4.706,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -12.7,
+        "shap_contribution": 0.68,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 5.0,
+        "shap_contribution": -0.217,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "schedule_slack_hours",
+        "friendly_name": "schedule slack",
+        "value": 63.0,
+        "shap_contribution": -0.197,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "REMAINING_HOURS_CAN_7",
+        "friendly_name": "7-day HOS cycle hours remaining",
+        "value": 18.36,
+        "shap_contribution": -0.161,
+        "direction": "decreases risk"
+      }
+    ],
+    "explanation": "trip distance is the largest contributor to the detentionRisk score for trip 620907 (value: 2484.9).",
+    "guardrail_applied": false
+  },
+  "620779": {
+    "trip_number": 620779,
+    "model": "detentionRisk",
+    "top_factors": [
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 2645.7,
+        "shap_contribution": 4.832,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -12.63,
+        "shap_contribution": 0.708,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "remaining_hours",
+        "friendly_name": "remaining drive hours",
+        "value": 46.34,
+        "shap_contribution": -0.184,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "schedule_slack_hours",
+        "friendly_name": "schedule slack",
+        "value": 69.0,
+        "shap_contribution": -0.165,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "REMAINING_HOURS_CAN_14",
+        "friendly_name": "14-day HOS cycle hours remaining",
+        "value": 13.93,
+        "shap_contribution": 0.084,
+        "direction": "increases risk"
+      }
+    ],
+    "explanation": "trip distance is the largest contributor to the detentionRisk score for trip 620779 (value: 2645.7).",
+    "guardrail_applied": false
+  },
+  "619886": {
+    "trip_number": 619886,
+    "model": "detentionRisk",
+    "top_factors": [
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 2496.2,
+        "shap_contribution": 4.919,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -13.13,
+        "shap_contribution": 0.668,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "remaining_hours",
+        "friendly_name": "remaining drive hours",
+        "value": 19.42,
+        "shap_contribution": -0.446,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 4.0,
+        "shap_contribution": -0.203,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "REMAINING_HOURS_CAN_7",
+        "friendly_name": "7-day HOS cycle hours remaining",
+        "value": 18.07,
+        "shap_contribution": -0.14,
+        "direction": "decreases risk"
+      }
+    ],
+    "explanation": "trip distance is the largest contributor to the detentionRisk score for trip 619886 (value: 2496.2).",
+    "guardrail_applied": false
+  },
+  "621303": {
+    "trip_number": 621303,
+    "model": "detentionRisk",
+    "top_factors": [
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 2519.4,
+        "shap_contribution": 4.834,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -14.49,
+        "shap_contribution": 0.748,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "remaining_hours",
+        "friendly_name": "remaining drive hours",
+        "value": 48.49,
+        "shap_contribution": -0.183,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "schedule_slack_hours",
+        "friendly_name": "schedule slack",
+        "value": 80.0,
+        "shap_contribution": -0.168,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "REMAINING_HOURS_CAN_7",
+        "friendly_name": "7-day HOS cycle hours remaining",
+        "value": 17.0,
+        "shap_contribution": -0.119,
+        "direction": "decreases risk"
+      }
+    ],
+    "explanation": "trip distance is the largest contributor to the detentionRisk score for trip 621303 (value: 2519.4).",
+    "guardrail_applied": false
+  },
+  "617084": {
+    "trip_number": 617084,
+    "model": "detentionRisk",
+    "top_factors": [
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 1822.7,
+        "shap_contribution": 4.654,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -4.67,
+        "shap_contribution": 0.585,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 5.0,
+        "shap_contribution": -0.206,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "REMAINING_HOURS_CAN_7",
+        "friendly_name": "7-day HOS cycle hours remaining",
+        "value": 18.11,
+        "shap_contribution": -0.154,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "remaining_hours",
+        "friendly_name": "remaining drive hours",
+        "value": 64.26,
+        "shap_contribution": 0.054,
+        "direction": "increases risk"
+      }
+    ],
+    "explanation": "trip distance is the largest contributor to the detentionRisk score for trip 617084 (value: 1822.7).",
+    "guardrail_applied": false
+  },
+  "619517": {
+    "trip_number": 619517,
+    "model": "emptyMileRisk",
+    "top_factors": [
+      {
+        "feature": "schedule_slack_hours",
+        "friendly_name": "schedule slack",
+        "value": 3.0,
+        "shap_contribution": 1.683,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 2.2,
+        "shap_contribution": 1.148,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "customer_detention_history",
+        "friendly_name": "this customer's detention history",
+        "value": 4.91,
+        "shap_contribution": 0.512,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -42.65,
+        "shap_contribution": -0.346,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "route_complexity",
+        "friendly_name": "route complexity",
+        "value": 6.0,
+        "shap_contribution": 0.238,
+        "direction": "increases risk"
+      }
+    ],
+    "explanation": "schedule slack is the largest contributor to the emptyMileRisk score for trip 619517 (value: 3.0).",
+    "guardrail_applied": false
+  },
+  "622334": {
+    "trip_number": 622334,
+    "model": "emptyMileRisk",
+    "top_factors": [
+      {
+        "feature": "schedule_slack_hours",
+        "friendly_name": "schedule slack",
+        "value": 3.0,
+        "shap_contribution": 1.753,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "distance_km",
+        "friendly_name": "trip distance",
+        "value": 2.2,
+        "shap_contribution": 1.178,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "customer_detention_history",
+        "friendly_name": "this customer's detention history",
+        "value": 4.78,
+        "shap_contribution": 0.544,
+        "direction": "increases risk"
+      },
+      {
+        "feature": "hos_buffer_hours",
+        "friendly_name": "HOS buffer",
+        "value": -42.65,
+        "shap_contribution": -0.346,
+        "direction": "decreases risk"
+      },
+      {
+        "feature": "REMAINING_HOURS_CAN_7",
+        "friendly_name": "7-day HOS cycle hours remaining",
+        "value": -42.62,
+        "shap_contribution": 0.183,
+        "direction": "increases risk"
+      }
+    ],
+    "explanation": "schedule slack is the largest contributor to the emptyMileRisk score for trip 622334 (value: 3.0).",
+    "guardrail_applied": false
+  }
+}
